@@ -139,6 +139,16 @@ p{
   border-color: rgba(255,255,255,.34);
 }
 
+.btn-whatsapp{
+  background: #1f9f55;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+.btn-whatsapp:hover{
+  background: #1b8a4a;
+}
+
 /* Cards */
 .cards{
   display: grid;
@@ -249,4 +259,5 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
 
