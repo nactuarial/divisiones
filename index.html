@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Divisiones: consultoría técnica organizada por especialidad." />
+  <title>divisiones</title>
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Divisiones">
+        <img src="assets/logo.png" alt="divisiones" class="brand-logo" />
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#divisiones">Divisiones</a>
+        <a href="#como">Cómo trabajamos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero (NEGRO) -->
+    <section class="section section-dark hero">
+      <div class="container">
+        <h1>Consultoría técnica organizada<br />por especialidad.</h1>
+
+        <p class="lead">
+          Divisiones es una plataforma de consultoría estructurada en unidades especializadas,
+          diseñada para abordar problemas complejos con método, rigor y foco técnico.
+        </p>
+
+        <a class="btn" href="#contacto">Contactar</a>
+      </div>
+    </section>
+
+    <!-- Qué es Divisiones (BLANCO) -->
+    <section class="section section-light" id="que-es">
+      <div class="container">
+        <h2>Qué es Divisiones</h2>
+        <p>
+          Divisiones integra conocimiento experto, metodologías probadas y ejecución disciplinada
+          a través de unidades técnicas independientes. Cada división opera con foco específico,
+          manteniendo coherencia estratégica y control de calidad central.
+        </p>
+      </div>
+    </section>
+
+    <!-- Divisiones (BLANCO) -->
+    <section class="section section-light" id="divisiones">
+      <div class="container">
+        <h2>Divisiones</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>División Actuarial</h3>
+            <p>Modelos actuariales y financieros. Evaluación de riesgos, sostenibilidad y diseño técnico de negocios.</p>
+          </article>
+
+          <article class="card">
+            <h3>División Contable</h3>
+            <p>Soporte técnico contable, interacción con auditoría y marcos normativos.</p>
+          </article>
+
+          <article class="card">
+            <h3>División Procesos</h3>
+            <p>Diseño y optimización de procesos, cadena de valor y modelos operativos.</p>
+          </article>
+
+          <article class="card">
+            <h3>División Compliance</h3>
+            <p>Cumplimiento regulatorio, gobierno corporativo y marcos de control.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Separador sutil -->
+    <div class="divider" aria-hidden="true">
+      <span class="divider-mark">÷</span>
+    </div>
+
+    <!-- Cómo trabajamos (NEGRO) -->
+    <section class="section section-dark" id="como">
+      <div class="container">
+        <h2>Cómo trabajamos</h2>
+
+        <div class="triptych">
+          <div class="pill">
+            <div class="pill-title"><span class="mini-mark">÷</span> Especialización</div>
+            <p>Cada problema se aborda desde la división correspondiente, sin soluciones genéricas.</p>
+          </div>
+
+          <div class="pill">
+            <div class="pill-title"><span class="mini-mark">÷</span> Método</div>
+            <p>Modelos, supuestos explícitos, documentación y trazabilidad.</p>
+          </div>
+
+          <div class="pill">
+            <div class="pill-title"><span class="mini-mark">÷</span> Ejecución</div>
+            <p>Entregables concretos, utilizables y transferibles al cliente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Para quién es (NEGRO) -->
+    <section class="section section-dark" id="para-quien">
+      <div class="container">
+        <h2>Para quién es</h2>
+        <p>
+          Divisiones trabaja con organizaciones que requieren análisis técnico riguroso y con profesionales
+          senior que buscan operar bajo una estructura sólida sin perder independencia.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / Contacto (NEGRO) -->
+  <footer class="site-footer section-dark" id="contacto">
+    <div class="container footer-inner">
+      <div class="footer-title">Contacto</div>
+      <a class="footer-link" href="mailto:info@divisiones.net">info@divisiones.net</a>
+      <div class="footer-small">© <span id="year"></span> divisiones</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
