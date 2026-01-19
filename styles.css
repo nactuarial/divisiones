@@ -52,7 +52,7 @@ body{
 }
 
 .brand-logo{
-  height: 28px;
+  height: 40px;
   width: auto;
   display: block;
 }
@@ -249,3 +249,4 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
