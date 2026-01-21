@@ -177,7 +177,7 @@ p{
 
 .product-card {
     background:  #c7bfbc;   /* gris claro elegante negro:#000;*/
-    color: #111;                 /* negro suave, no puro */
+    color: #000;                 /* negro suave, no puro */
     border-radius: 14px;
     padding: 32px;
     border: 1px solid #e0e0e0;
@@ -326,6 +326,18 @@ p{
   .cards{ grid-template-columns: 1fr; }
 }
 
+/* Forzar colores dentro de cards en Products */
+.products-section .product-card {
+  color: #000;
+}
+
+.products-section .product-card h3,
+.products-section .product-card p,
+.products-section .product-card li,
+.products-section .product-card .result,
+.products-section .product-card strong {
+  color: #000;
+}
 
 
 
