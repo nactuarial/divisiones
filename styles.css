@@ -176,7 +176,7 @@ p{
 }
 
 .product-card {
- background: #ffffff;
+ background: #f9fafb;
   color: #111;
   border-radius: 14px;
   padding: 32px;
@@ -413,5 +413,6 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
+
 
 
