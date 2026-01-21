@@ -176,10 +176,11 @@ p{
 }
 
 .product-card {
-  background: #000;
-  border: 1px solid #1f1f1f;   /* marco sutil */
-  padding: 28px 30px;
-  border-radius: 8px;          /* igual a Divisiones */
+    background:  #f2f2f2;   /* gris claro elegante negro:#000;*/
+    color: #111;                 /* negro suave, no puro */
+    border-radius: 14px;
+    padding: 32px;
+    border: 1px solid #e0e0e0;
 }
 
 .product-card h3 {
@@ -324,6 +325,7 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
 
 
 
