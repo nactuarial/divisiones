@@ -169,24 +169,22 @@ p{
 
 /* Products */
 .products-section {
-    background: #000;
+    background: #0e0e0e;
     color: #fff;
     padding-top: 120px;   /* ⬅️ aumentar este valor */
     padding-bottom: 120px;
 }
 
 .product-card {
-    background:  #c7bfbc;   /* gris claro elegante negro:#000;*/
-    color: #000;                 /* negro suave, no puro */
-    border-radius: 14px;
-    padding: 32px;
-    border: 1px solid #e0e0e0;
+  background: #1a1a1a;
+  color: #f5f5f5;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .product-card h3 {
   font-size: 16px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -411,3 +409,4 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
+
