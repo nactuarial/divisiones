@@ -387,6 +387,37 @@ p{
 
 
 
+/* Contenedor card ya existente */
+.division-card {
+  position: relative;
+}
+
+/* Indicador de color */
+.division-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+/* Colores por división */
+.division-card.actuarial .division-dot {
+  background: #1e3a8a; /* azul actuarial */
+}
+
+.division-card.contable .division-dot {
+  background: #0f766e; /* verde contable */
+}
+
+.division-card.procesos .division-dot {
+  background: #a16207; /* ocre procesos */
+}
+
+.division-card.compliance .division-dot {
+  background: #581c87; /* violeta compliance */
+}
+
 
 
 
