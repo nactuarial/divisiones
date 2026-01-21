@@ -168,6 +168,12 @@ p{
 }
 
 /* Products */
+.product-section {
+    background: #000;
+    color: #fff;
+    padding-top: 120px;   /* ⬅️ aumentar este valor */
+    padding-bottom: 120px;
+}
 
 .product-card {
   background: #000;
@@ -318,6 +324,7 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
 
 
 
