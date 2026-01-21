@@ -176,7 +176,7 @@ p{
 }
 
 .product-card {
-    background:  #f2f2f2;   /* gris claro elegante negro:#000;*/
+    background:  #c7bfbc;   /* gris claro elegante negro:#000;*/
     color: #111;                 /* negro suave, no puro */
     border-radius: 14px;
     padding: 32px;
@@ -186,13 +186,13 @@ p{
 .product-card h3 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
   margin-bottom: 10px;
 }
 
 .product-card p {
   font-size: 14px;
-  color: #cfcfcf;
+  color: #000;
   line-height: 1.5;
   margin-bottom: 14px;
 }
@@ -205,7 +205,7 @@ p{
 
 .product-card ul li {
   font-size: 14px;
-  color: #bdbdbd;
+  color: #000;
   margin-bottom: 6px;
   position: relative;
   padding-left: 14px;
@@ -215,14 +215,14 @@ p{
   content: "–";
   position: absolute;
   left: 0;
-  color: #6f6f6f;
+  color: #000;
 }
 
 .product-card .result {
   border-top: 1px solid #1f1f1f;
   padding-top: 12px;
   font-size: 13px;
-  color: #a8a8a8;
+  color: #000;
 }
 
 .product-grid {
@@ -325,6 +325,7 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
 
 
 
