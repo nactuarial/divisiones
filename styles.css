@@ -386,22 +386,16 @@ p{
 }
 
 
-
-/* Contenedor card ya existente */
-.division-card {
-  position: relative;
-}
-
-/* Indicador de color */
+/* Indicador de división – pill horizontal */
 .division-dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  margin-bottom: 12px;
+  width: 64px;          /* largo del tag */
+  height: 12px;         /* grosor */
+  border-radius: 999px; /* forma pill */
+  margin-bottom: 14px;
+  opacity: 0.9;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06); /* borde sutil */
 }
-
-/* Colores por división */
 .division-card.actuarial .division-dot {
   background: #1e3a8a; /* azul actuarial */
 }
@@ -417,8 +411,3 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
-
-
-
-
-
