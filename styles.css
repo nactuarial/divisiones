@@ -171,8 +171,8 @@ p{
 .products-section {
   background: #f4f5f7;   /* gris claro elegante */
   color: #111;
-    padding-top: 120px;   /* ⬅️ aumentar este valor */
-    padding-bottom: 120px;
+    padding-top: 50px;   /* ⬅️ aumentar este valor */
+    padding-bottom: 50px;
 }
 
 .product-card {
@@ -420,6 +420,7 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
+
 
 
 
