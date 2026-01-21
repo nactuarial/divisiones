@@ -169,28 +169,31 @@ p{
 
 /* Products */
 .products-section {
-    background: #0e0e0e;
-    color: #fff;
+  background: #f4f5f7;   /* gris claro elegante */
+  color: #111;
     padding-top: 120px;   /* ⬅️ aumentar este valor */
     padding-bottom: 120px;
 }
 
 .product-card {
-  background: #1a1a1a;
-  color: #f5f5f5;
-  border: 1px solid rgba(255,255,255,0.08);
+ background: #ffffff;
+  color: #111;
+  border-radius: 14px;
+  padding: 32px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
 }
 
 .product-card h3 {
-  font-size: 16px;
+ font-size: 18px;
   font-weight: 600;
-  color: #fff;
-  margin-bottom: 10px;
+  color: #111;
+  margin-bottom: 14px;
 }
 
 .product-card p {
   font-size: 14px;
-  color: #000;
+  color: #333;
   line-height: 1.5;
   margin-bottom: 14px;
 }
@@ -199,11 +202,12 @@ p{
   list-style: none;
   padding-left: 0;
   margin: 0 0 16px 0;
+  color: #333;
 }
 
 .product-card ul li {
   font-size: 14px;
-  color: #000;
+  color: #333;
   margin-bottom: 6px;
   position: relative;
   padding-left: 14px;
@@ -213,14 +217,14 @@ p{
   content: "–";
   position: absolute;
   left: 0;
-  color: #000;
+  color: #333;
 }
 
 .product-card .result {
   border-top: 1px solid #1f1f1f;
   padding-top: 12px;
   font-size: 13px;
-  color: #000;
+  color: #333;
 }
 
 .product-grid {
@@ -409,4 +413,5 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
+
 
