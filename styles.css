@@ -346,13 +346,13 @@ p{
 
 /* Tags */
 .tags {
-  display: flex;
+ display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 10px 0 14px 0;
-  margin-top: auto; 
-  min-height: 64px;   
-  align-content: flex-end; 
+  margin-top: auto;     /* empuja hacia abajo */
+  margin-bottom: 14px;  /* solo abajo */
+  min-height: 64px;     /* reserva 2 líneas */
+  align-content: flex-end;; 
 }
 
 .tag {
@@ -419,6 +419,7 @@ p{
 .division-card.compliance .division-dot {
   background: #581c87; /* violeta compliance */
 }
+
 
 
 
