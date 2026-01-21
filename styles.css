@@ -339,6 +339,52 @@ p{
   color: #000;
 }
 
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  border: 1px solid transparent;
+}
+
+/* División: Actuarial */
+.tag-actuarial {
+  background: rgba(30, 58, 138, 0.10); /* azul sobrio */
+  color: #1e3a8a;
+  border-color: rgba(30, 58, 138, 0.25);
+}
+
+/* División: Contable */
+.tag-contable {
+  background: rgba(15, 118, 110, 0.10); /* verde petróleo */
+  color: #0f766e;
+  border-color: rgba(15, 118, 110, 0.25);
+}
+
+/* División: Procesos */
+.tag-procesos {
+  background: rgba(161, 98, 7, 0.12); /* ocre */
+  color: #a16207;
+  border-color: rgba(161, 98, 7, 0.25);
+}
+
+/* División: Compliance */
+.tag-compliance {
+  background: rgba(88, 28, 135, 0.10); /* violeta */
+  color: #581c87;
+  border-color: rgba(88, 28, 135, 0.25);
+}
+
 
 
 
