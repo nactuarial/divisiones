@@ -167,68 +167,64 @@ p{
   color: var(--muted-ink);
 }
 
-.products {
-  padding: 80px 20px;
-  background: #000;
-  color: #fff;
-}
-
-.products h2 {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.products-intro {
-  text-align: center;
-  color: #bbb;
-  margin-bottom: 50px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+/* Products */
 
 .product-card {
-  border: 1px solid #222;
-  padding: 30px;
   background: #000;
+  border: 1px solid #1f1f1f;   /* marco sutil */
+  padding: 28px 30px;
+  border-radius: 8px;          /* igual a Divisiones */
 }
 
 .product-card h3 {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .product-card p {
-  color: #ccc;
   font-size: 14px;
-  margin-bottom: 15px;
+  color: #cfcfcf;
+  line-height: 1.5;
+  margin-bottom: 14px;
 }
 
 .product-card ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 15px;
+  margin: 0 0 16px 0;
 }
 
 .product-card ul li {
   font-size: 14px;
-  color: #bbb;
+  color: #bdbdbd;
   margin-bottom: 6px;
+  position: relative;
+  padding-left: 14px;
+}
+
+.product-card ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: #6f6f6f;
 }
 
 .product-card .result {
+  border-top: 1px solid #1f1f1f;
+  padding-top: 12px;
   font-size: 13px;
-  color: #aaa;
-  border-top: 1px solid #222;
-  padding-top: 10px;
+  color: #a8a8a8;
 }
 
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 /* Divider */
 .divider{
@@ -322,6 +318,7 @@ p{
   .hero{ padding: 78px 0 64px; }
   .cards{ grid-template-columns: 1fr; }
 }
+
 
 
 
